@@ -94,7 +94,7 @@
 	req_access_txt = "200"
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/workroom)
@@ -111,7 +111,7 @@
 /obj/machinery/door/airlock{
 	name = "Bathroom"
 	},
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/guestroom/room_3)
@@ -558,7 +558,7 @@
 /obj/machinery/door/airlock{
 	name = "Bathroom"
 	},
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/guestroom/room_4)
@@ -919,7 +919,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Dining"
 	},
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/bar)
@@ -1251,7 +1251,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/bar)
@@ -1668,7 +1668,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/bar)
@@ -1916,7 +1916,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/workroom)
@@ -2142,7 +2142,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/ruin/space/has_grav/hotel)
 "vm" = (
 /obj/machinery/door/airlock/maintenance{
@@ -2186,7 +2186,7 @@
 	req_access_txt = "200"
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 4
 	},
 /area/ruin/space/has_grav/hotel/bar)
@@ -2452,7 +2452,7 @@
 	name = "Freezer";
 	req_access_txt = "200"
 	},
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 4
 	},
 /area/ruin/space/has_grav/hotel/bar)
@@ -2676,7 +2676,7 @@
 	req_access_txt = "200,201"
 	},
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/ruin/space/has_grav/hotel/custodial)
 "AT" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -3015,7 +3015,7 @@
 /obj/machinery/door/airlock{
 	name = "Bathroom"
 	},
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/guestroom/room_6)
@@ -3079,7 +3079,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/hatch,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/dock)
@@ -3106,7 +3106,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Handy Shop"
 	},
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/ruin/space/has_grav/hotel)
 "Gd" = (
 /obj/structure/cable,
@@ -3168,7 +3168,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Handy Shop"
 	},
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel)
@@ -3266,7 +3266,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/dock)
@@ -3320,7 +3320,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Dining"
 	},
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/bar)
@@ -3611,7 +3611,7 @@
 /obj/machinery/door/airlock{
 	name = "Bathroom"
 	},
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/dock)
@@ -4238,7 +4238,7 @@
 /obj/machinery/door/airlock{
 	name = "Bathroom"
 	},
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/guestroom/room_2)
@@ -4405,7 +4405,7 @@
 	name = "Dock"
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/dock)
@@ -4421,7 +4421,7 @@
 /obj/machinery/door/airlock{
 	name = "Bathroom"
 	},
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/ruin/space/has_grav/hotel/guestroom/room_1)
@@ -4550,7 +4550,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Guest Suites"
 	},
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/ruin/space/has_grav/hotel)
 "XS" = (
 /obj/effect/turf_decal/siding/wood{

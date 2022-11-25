@@ -144,6 +144,7 @@
 /turf/open/misc/ashplanet/wateryrock{
 	initial_gas = list("oxygen" = 22, "nitrogen"=82);
 	temperature =293.15;
+	
 	},
 /area/security/prison/rec)
 "bz" = (
@@ -1893,9 +1894,8 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
-/turf/open/floor/wood{
-	icon_state = "wood-broken5"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/security/prison/rec)
 "tw" = (
 /obj/machinery/door/airlock{
@@ -2126,9 +2126,8 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
-/turf/open/floor/wood{
-	icon_state = "wood-broken2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/security/prison/rec)
 "vL" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2468,6 +2467,7 @@
 /turf/open/misc/ashplanet/wateryrock{
 	initial_gas = list("oxygen" = 22, "nitrogen"=82);
 	temperature =293.15;
+	
 	},
 /area/security/prison/rec)
 "zD" = (
@@ -2579,9 +2579,8 @@
 	dir = 4
 	},
 /obj/structure/sign/painting/large,
-/turf/open/floor/wood{
-	icon_state = "wood-broken5"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/security/prison/rec)
 "Be" = (
 /obj/structure/cable,
@@ -3771,9 +3770,8 @@
 "Mj" = (
 /obj/structure/table/wood,
 /obj/item/newspaper,
-/turf/open/floor/wood{
-	icon_state = "wood-broken2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/security/prison/rec)
 "Mn" = (
 /obj/machinery/hydroponics/constructable,
@@ -4248,6 +4246,7 @@
 /turf/open/misc/ashplanet/wateryrock{
 	initial_gas = list("oxygen" = 22, "nitrogen"=82);
 	temperature =293.15;
+	
 	},
 /area/security/prison/rec)
 "Rs" = (
@@ -4282,9 +4281,8 @@
 /obj/structure/table/wood,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/wood{
-	icon_state = "wood-broken"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/security/prison/rec)
 "RQ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -5197,7 +5195,7 @@
 	req_access_txt = "48"
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/mine/mechbay)
 "ZV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{

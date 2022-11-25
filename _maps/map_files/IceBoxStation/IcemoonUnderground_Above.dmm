@@ -7,9 +7,8 @@
 /area/service/kitchen)
 "ab" = (
 /obj/machinery/light/small/directional/east,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/aft/lesser)
 "ad" = (
 /obj/effect/turf_decal/tile/bar,
@@ -36,9 +35,8 @@
 /area/service/theater)
 "ag" = (
 /obj/effect/spawner/random/structure/crate,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "ah" = (
 /obj/structure/rack,
@@ -376,7 +374,7 @@
 "bd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -410,7 +408,7 @@
 /turf/open/misc/dirt/dark{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "bj" = (
@@ -430,9 +428,8 @@
 "bl" = (
 /obj/structure/girder,
 /obj/structure/grille,
-/turf/open/floor/wood{
-	icon_state = "wood-broken6"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/maintenance/aft/lesser)
 "bm" = (
 /obj/structure/bodycontainer/crematorium{
@@ -724,7 +721,7 @@
 "ce" = (
 /obj/effect/turf_decal/tile/red/half/contrasted,
 /obj/item/radio/intercom/prison/directional/south,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -781,9 +778,8 @@
 /area/commons/dorms/laundry)
 "co" = (
 /obj/structure/grille/broken,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "cp" = (
 /obj/structure/bookcase/random,
@@ -882,9 +878,8 @@
 /turf/open/floor/iron/cafeteria,
 /area/security/prison/work)
 "cD" = (
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "cE" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle{
@@ -905,7 +900,7 @@
 /turf/open/misc/dirt{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "cH" = (
@@ -957,7 +952,7 @@
 /turf/open/misc/dirt{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "cO" = (
@@ -1003,9 +998,8 @@
 	dir = 8
 	},
 /obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "cU" = (
 /obj/structure/stairs/south,
@@ -1760,7 +1754,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/security/brig)
 "eW" = (
 /obj/item/clothing/suit/hooded/wintercoat/science,
@@ -1913,7 +1907,7 @@
 	name = "Room 2"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/mine/production)
@@ -2043,9 +2037,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "fR" = (
 /obj/effect/turf_decal/trimline/green/filled/corner{
@@ -2172,7 +2165,7 @@
 /obj/machinery/light/directional/east,
 /obj/machinery/status_display/evac/directional/east,
 /obj/structure/table/reinforced,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/medical/chemistry)
@@ -2234,7 +2227,7 @@
 /obj/structure/closet{
 	name = "Evidence Closet 4"
 	},
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/brig)
@@ -2408,9 +2401,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/event_spawn,
 /obj/effect/landmark/blobstart,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "gN" = (
 /obj/structure/table,
@@ -2637,7 +2629,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "hq" = (
 /obj/machinery/duct,
@@ -2685,7 +2677,7 @@
 "hv" = (
 /obj/machinery/airalarm/directional/south,
 /obj/effect/turf_decal/tile/red/half/contrasted,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -2981,7 +2973,7 @@
 /obj/machinery/duct,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/service/bar)
 "ig" = (
 /obj/machinery/door/airlock/maintenance{
@@ -3148,7 +3140,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "iw" = (
 /obj/structure/cable/multilayer/multiz,
@@ -3285,9 +3277,8 @@
 /area/medical/virology)
 "iP" = (
 /obj/structure/closet/emcloset,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "iR" = (
 /obj/effect/turf_decal/tile/brown,
@@ -3395,9 +3386,8 @@
 /area/commons/dorms/laundry)
 "je" = (
 /obj/structure/sign/poster/random/directional/east,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/aft/lesser)
 "jf" = (
 /obj/machinery/light_switch/directional/south,
@@ -3488,9 +3478,8 @@
 /area/science/xenobiology)
 "js" = (
 /obj/structure/tank_holder/extinguisher,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/port/greater)
 "jt" = (
 /obj/structure/closet/crate,
@@ -3836,9 +3825,8 @@
 /area/security/detectives_office)
 "kq" = (
 /obj/structure/sign/poster/random/directional/west,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/aft/lesser)
 "kr" = (
 /obj/machinery/door_timer{
@@ -3890,9 +3878,8 @@
 /area/mine/living_quarters)
 "kw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "kx" = (
 /obj/structure/chair/office{
@@ -4139,7 +4126,7 @@
 /turf/open/misc/dirt/dark{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "ll" = (
@@ -4299,9 +4286,8 @@
 /turf/open/floor/iron,
 /area/service/bar)
 "lI" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "lJ" = (
 /obj/machinery/vending/cola/sodie,
@@ -4427,9 +4413,8 @@
 /area/service/chapel)
 "md" = (
 /obj/structure/ladder,
-/turf/open/floor/wood{
-	icon_state = "wood-broken"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/maintenance/aft/lesser)
 "mf" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -4507,7 +4492,7 @@
 	},
 /obj/item/stack/cable_coil,
 /obj/item/multitool,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/medical/chemistry)
@@ -4621,7 +4606,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "mM" = (
 /obj/effect/turf_decal/siding/brown{
@@ -4742,7 +4727,7 @@
 /area/medical/virology)
 "mZ" = (
 /obj/effect/turf_decal/tile/red/half/contrasted,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -4826,7 +4811,7 @@
 "nm" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/red/half/contrasted,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -5097,7 +5082,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/mine/eva)
@@ -5170,9 +5155,8 @@
 /turf/open/floor/plating/elevatorshaft,
 /area/mine/storage)
 "on" = (
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "oo" = (
 /obj/structure/railing/corner{
@@ -5206,9 +5190,8 @@
 /turf/closed/wall,
 /area/security/prison/garden)
 "os" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/fore)
 "ot" = (
 /obj/structure/stairs/south,
@@ -5236,7 +5219,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/red/half/contrasted,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -5355,7 +5338,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "oN" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -5448,7 +5431,7 @@
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
 /obj/machinery/duct,
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/service/theater)
@@ -5469,9 +5452,8 @@
 /turf/open/floor/iron/smooth,
 /area/mine/living_quarters)
 "pb" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/aft/lesser)
 "pc" = (
 /obj/effect/turf_decal/trimline/green/filled/line,
@@ -5576,9 +5558,8 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "pn" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -6460,7 +6441,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/service/theater)
@@ -6698,7 +6679,7 @@
 /turf/open/misc/dirt{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "so" = (
@@ -6750,7 +6731,7 @@
 	name = "Evidence Closet 2"
 	},
 /obj/machinery/airalarm/directional/north,
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/brig)
 "sz" = (
 /obj/structure/railing{
@@ -6780,7 +6761,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/mine/production)
 "sC" = (
 /obj/machinery/mineral/equipment_vendor,
@@ -6799,9 +6780,8 @@
 	},
 /obj/effect/spawner/random/medical/patient_stretcher,
 /obj/effect/decal/cleanable/blood/gibs/torso,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/security/prison/safe)
 "sE" = (
 /obj/machinery/space_heater,
@@ -6912,7 +6892,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/hallway/secondary/service)
@@ -7066,7 +7046,7 @@
 /obj/structure/bodycontainer/morgue{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/service/chapel/office)
@@ -7570,7 +7550,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "uO" = (
 /obj/effect/spawner/random/structure/tank_holder,
@@ -7678,7 +7658,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/security/brig)
 "vf" = (
 /obj/structure/table/wood,
@@ -7841,7 +7821,7 @@
 /turf/open/misc/dirt{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "vF" = (
@@ -8104,7 +8084,7 @@
 /obj/structure/bodycontainer/morgue{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/service/chapel/office)
@@ -8155,7 +8135,7 @@
 	name = "Evidence Closet 1"
 	},
 /obj/item/radio/intercom/prison/directional/north,
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/brig)
 "wE" = (
 /obj/effect/turf_decal/tile/bar{
@@ -8189,7 +8169,7 @@
 /turf/open/floor/iron/showroomfloor,
 /area/maintenance/department/medical/morgue)
 "wK" = (
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/service/chapel/office)
@@ -8229,7 +8209,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/textured_corner{
+/turf/open/floor/iron/dark/corner{
 	dir = 8
 	},
 /area/security/prison)
@@ -8537,7 +8517,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "xL" = (
 /obj/structure/chair/stool/directional/north,
@@ -8545,9 +8525,8 @@
 /area/security/prison/visit)
 "xM" = (
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/security/prison/safe)
 "xO" = (
 /turf/closed/wall,
@@ -8755,9 +8734,8 @@
 /turf/open/floor/carpet/red,
 /area/security/prison/work)
 "yz" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/port/greater)
 "yC" = (
 /obj/structure/chair/pew/left{
@@ -8979,7 +8957,7 @@
 /turf/open/misc/dirt{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "zl" = (
@@ -8998,7 +8976,7 @@
 	name = "Room 1"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/mine/production)
@@ -9518,7 +9496,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/security/brig)
 "AT" = (
 /obj/machinery/seed_extractor,
@@ -9628,9 +9606,8 @@
 /area/medical/virology)
 "Bg" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "Bh" = (
 /obj/machinery/door/airlock/external{
@@ -10104,9 +10081,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/fore)
 "CF" = (
 /obj/item/kirbyplants/random,
@@ -10193,7 +10169,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 4
 	},
 /area/security/prison)
@@ -10314,7 +10290,7 @@
 /turf/open/misc/dirt/dark{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "Df" = (
@@ -10353,7 +10329,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/service/bar)
 "Dj" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
@@ -10470,7 +10446,7 @@
 	req_one_access_txt = "35;28"
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/textured_half,
+/turf/open/floor/iron/half,
 /area/service/hydroponics)
 "Dz" = (
 /obj/structure/table,
@@ -10492,7 +10468,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "DE" = (
 /obj/machinery/atmospherics/pipe/multiz/scrubbers/visible/layer2{
@@ -10637,14 +10613,13 @@
 /obj/structure/sign/poster/contraband/syndiemoth{
 	pixel_x = -32
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/security/prison/safe)
 "DY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/security/brig)
 "Ea" = (
 /obj/effect/turf_decal/tile/brown,
@@ -10834,7 +10809,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 4
 	},
 /area/security/prison)
@@ -10973,7 +10948,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "EX" = (
 /obj/effect/mapping_helpers/airlock/locked,
@@ -11080,7 +11055,7 @@
 /area/science/xenobiology)
 "Fl" = (
 /obj/structure/closet/secure_closet/evidence,
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/brig)
 "Fm" = (
 /obj/effect/decal/cleanable/blood/gibs,
@@ -11527,12 +11502,11 @@
 "GC" = (
 /obj/structure/ladder,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/maintenance/department/medical/morgue)
 "GD" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/medical/morgue)
 "GE" = (
 /obj/structure/window/reinforced,
@@ -11839,9 +11813,8 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "chem-morgue-airlock"
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/medical/morgue)
 "Hs" = (
 /obj/effect/turf_decal/tile/blue{
@@ -11862,7 +11835,7 @@
 /turf/open/misc/dirt{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "Hv" = (
@@ -12180,7 +12153,7 @@
 	name = "Evidence Closet 6"
 	},
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/brig)
@@ -12219,9 +12192,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "Io" = (
 /obj/effect/turf_decal/tile/green{
@@ -12278,7 +12250,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/turf/open/floor/iron/textured_half{
+/turf/open/floor/iron/half{
 	dir = 1
 	},
 /area/hallway/secondary/service)
@@ -12336,7 +12308,7 @@
 	dir = 8
 	},
 /obj/machinery/vending/wardrobe/chem_wardrobe,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/medical/chemistry)
@@ -12355,9 +12327,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "IG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12378,9 +12349,8 @@
 /area/medical/chemistry)
 "IL" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "IM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -12430,7 +12400,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/cargo/storage)
 "IR" = (
 /obj/structure/rack,
@@ -12485,7 +12455,7 @@
 	pixel_x = 32
 	},
 /obj/effect/turf_decal/stripes/box,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/medical/chemistry)
 "IZ" = (
 /obj/structure/disposaloutlet{
@@ -12861,9 +12831,8 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "Kf" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "Kg" = (
 /obj/structure/disposalpipe/segment{
@@ -12952,7 +12921,7 @@
 /obj/structure/closet{
 	name = "Evidence Closet 5"
 	},
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/brig)
@@ -12976,7 +12945,7 @@
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "Kx" = (
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -12990,9 +12959,8 @@
 /area/service/chapel/office)
 "Kz" = (
 /obj/structure/barricade/wooden,
-/turf/open/floor/wood{
-	icon_state = "wood-broken3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/maintenance/aft/lesser)
 "KA" = (
 /obj/effect/turf_decal/trimline/green/filled/warning,
@@ -13191,7 +13159,7 @@
 	name = "Bar";
 	req_access_txt = "25"
 	},
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/service/bar)
@@ -13205,9 +13173,8 @@
 /area/service/bar)
 "KY" = (
 /obj/machinery/space_heater,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/fore)
 "KZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -13722,9 +13689,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "Mq" = (
 /obj/effect/turf_decal/siding/wood,
@@ -13750,7 +13716,7 @@
 "Mu" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/red/half/contrasted,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -13785,7 +13751,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/maintenance/department/cargo)
@@ -13818,9 +13784,8 @@
 /turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "MD" = (
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/aft/lesser)
 "ME" = (
 /obj/machinery/door/airlock/security{
@@ -14161,7 +14126,7 @@
 	},
 /obj/structure/sign/poster/official/random/directional/south,
 /obj/effect/turf_decal/tile/red/half/contrasted,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -14326,7 +14291,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "Of" = (
 /obj/effect/turf_decal/tile/yellow,
@@ -14379,9 +14344,8 @@
 /obj/structure/disposalpipe/trunk/multiz{
 	dir = 4
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/medical/chemistry)
 "On" = (
 /obj/machinery/door/airlock/external{
@@ -14489,7 +14453,7 @@
 /obj/effect/turf_decal/siding/red{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 8
 	},
 /area/security/prison)
@@ -14522,9 +14486,8 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/fore)
 "OI" = (
 /obj/structure/marker_beacon/burgundy{
@@ -14542,7 +14505,7 @@
 	network = list("ss13","medbay")
 	},
 /obj/effect/turf_decal/stripes/end,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/medical/chemistry)
 "OK" = (
 /obj/structure/railing/corner{
@@ -14875,7 +14838,7 @@
 "PD" = (
 /obj/machinery/firealarm/directional/south,
 /obj/effect/turf_decal/tile/red/half/contrasted,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -14898,7 +14861,7 @@
 /turf/open/misc/dirt{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "PJ" = (
@@ -14942,7 +14905,7 @@
 /obj/machinery/camera/directional/north{
 	c_tag = "Security - Lower Brig Evidence"
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/brig)
 "PN" = (
 /obj/structure/sign/warning/electricshock{
@@ -14993,9 +14956,8 @@
 /obj/effect/spawner/structure/window/hollow/reinforced/end{
 	dir = 1
 	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/medical/morgue)
 "PV" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -15316,7 +15278,7 @@
 /obj/item/reagent_containers/dropper{
 	pixel_y = -7
 	},
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/medical/chemistry)
@@ -15350,9 +15312,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/maintenance/port/greater)
 "QM" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
@@ -15509,7 +15470,7 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/clothing/head/welding,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/medical/chemistry)
@@ -15700,7 +15661,7 @@
 /obj/structure/ladder,
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/maintenance/department/medical/morgue)
 "RN" = (
 /obj/machinery/power/shieldwallgen/xenobiologyaccess,
@@ -16177,7 +16138,7 @@
 	},
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/light/directional/east,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/medical/chemistry)
@@ -16714,7 +16675,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/security/brig)
 "Uw" = (
 /obj/effect/landmark/event_spawn,
@@ -16820,7 +16781,7 @@
 	},
 /obj/structure/sign/poster/official/random/directional/south,
 /obj/effect/turf_decal/tile/red/half/contrasted,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/prison)
@@ -16882,9 +16843,8 @@
 /area/security/detectives_office)
 "UT" = (
 /obj/structure/closet/firecloset,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "UU" = (
 /obj/item/storage/box/evidence{
@@ -16981,7 +16941,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/textured_half,
+/turf/open/floor/iron/half,
 /area/mine/production)
 "Vi" = (
 /obj/structure/cable,
@@ -17254,7 +17214,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/cargo/warehouse)
 "VT" = (
 /obj/machinery/light/directional/north,
@@ -17262,7 +17222,7 @@
 	dir = 1
 	},
 /obj/item/radio/intercom/prison/directional/north,
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "VV" = (
 /obj/structure/chair{
@@ -17272,7 +17232,7 @@
 /area/security/courtroom)
 "VW" = (
 /obj/structure/closet/secure_closet/evidence,
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 1
 	},
 /area/security/brig)
@@ -17295,9 +17255,8 @@
 /area/service/bar)
 "Wa" = (
 /obj/effect/spawner/random/structure/crate,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/maintenance/aft/lesser)
 "Wb" = (
 /turf/open/floor/engine,
@@ -17539,7 +17498,7 @@
 /turf/closed/wall/r_wall,
 /area/security/prison/safe)
 "WM" = (
-/turf/open/floor/iron/dark/textured_edge{
+/turf/open/floor/iron/dark/edge{
 	dir = 4
 	},
 /area/security/prison)
@@ -17653,9 +17612,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/plating{
-	icon_state = "panelscorched"
-	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/medical/chemistry)
 "Xd" = (
 /obj/machinery/door/window/left/directional/north{
@@ -17763,7 +17721,7 @@
 /turf/open/misc/dirt{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "Xv" = (
@@ -18320,7 +18278,7 @@
 /turf/open/misc/dirt{
 	initial_gas = list("oxygen" = 14, "nitrogen" = 30);
 	temperature = 180;
-
+	
 	},
 /area/icemoon/underground/explored)
 "YW" = (
@@ -18416,7 +18374,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_edge,
+/turf/open/floor/iron/dark/edge,
 /area/security/prison)
 "Zn" = (
 /obj/machinery/door/airlock/maintenance{
@@ -18424,7 +18382,7 @@
 	req_access_txt = "48"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_half{
+/turf/open/floor/iron/dark/half{
 	dir = 1
 	},
 /area/maintenance/department/cargo)
@@ -54082,8 +54040,8 @@ kK
 ne
 GD
 nY
-Nx
-Nx
+GD
+GD
 nY
 OV
 cd
@@ -54340,7 +54298,7 @@ ne
 yS
 nY
 nY
-Nx
+GD
 nY
 rk
 vy
@@ -59262,7 +59220,7 @@ ak
 ak
 ak
 hM
-xH
+pb
 VJ
 Fa
 Fa
@@ -60522,7 +60480,7 @@ Fa
 Fa
 Fa
 Fa
-lE
+pb
 Fa
 Fa
 Fa
@@ -62061,7 +62019,7 @@ kK
 kK
 kK
 hM
-xH
+pb
 CR
 Qv
 LM
@@ -64909,7 +64867,7 @@ Fa
 IR
 Fa
 Fa
-lE
+pb
 Fa
 YY
 pY
@@ -66647,7 +66605,7 @@ JY
 UK
 UK
 Ox
-wu
+lI
 UK
 QU
 QU

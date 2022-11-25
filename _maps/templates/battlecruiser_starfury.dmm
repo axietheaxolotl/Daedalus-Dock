@@ -747,14 +747,14 @@
 /obj/structure/sign/warning/coldtemp{
 	pixel_y = 32
 	},
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/iron/white/large,
 /area/shuttle/sbc_starfury)
 "cz" = (
 /obj/machinery/atmospherics/components/unary/cryo_cell,
 /obj/effect/turf_decal/bot_white{
 	color = "#00A2FF"
 	},
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/iron/white/large,
 /area/shuttle/sbc_starfury)
 "cB" = (
 /obj/machinery/door/airlock/centcom{
@@ -4925,7 +4925,7 @@
 	color = "#00A2FF"
 	},
 /obj/machinery/light/directional/north,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/iron/white/large,
 /area/shuttle/sbc_starfury)
 "KR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,

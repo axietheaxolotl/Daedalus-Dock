@@ -22,10 +22,6 @@
 		/obj/item/stack/tile/iron/corner,
 		/obj/item/stack/tile/iron/large,
 		/obj/item/stack/tile/iron/textured,
-		/obj/item/stack/tile/iron/textured_edge,
-		/obj/item/stack/tile/iron/textured_half,
-		/obj/item/stack/tile/iron/textured_corner,
-		/obj/item/stack/tile/iron/textured_large,
 		/obj/item/stack/tile/iron/dark,
 		/obj/item/stack/tile/iron/dark/smooth_edge,
 		/obj/item/stack/tile/iron/dark/smooth_half,
@@ -35,10 +31,6 @@
 		/obj/item/stack/tile/iron/dark_corner,
 		/obj/item/stack/tile/iron/checker,
 		/obj/item/stack/tile/iron/dark/textured,
-		/obj/item/stack/tile/iron/dark/textured_edge,
-		/obj/item/stack/tile/iron/dark/textured_half,
-		/obj/item/stack/tile/iron/dark/textured_corner,
-		/obj/item/stack/tile/iron/dark/textured_large,
 		/obj/item/stack/tile/iron/white,
 		/obj/item/stack/tile/iron/white/smooth_edge,
 		/obj/item/stack/tile/iron/white/smooth_half,
@@ -48,10 +40,6 @@
 		/obj/item/stack/tile/iron/white_corner,
 		/obj/item/stack/tile/iron/cafeteria,
 		/obj/item/stack/tile/iron/white/textured,
-		/obj/item/stack/tile/iron/white/textured_edge,
-		/obj/item/stack/tile/iron/white/textured_half,
-		/obj/item/stack/tile/iron/white/textured_corner,
-		/obj/item/stack/tile/iron/white/textured_large,
 		/obj/item/stack/tile/iron/recharge_floor,
 		/obj/item/stack/tile/iron/smooth,
 		/obj/item/stack/tile/iron/smooth_edge,
@@ -128,36 +116,36 @@
 	turf_type = /turf/open/floor/iron/textured
 	merge_type = /obj/item/stack/tile/iron/textured
 
-/obj/item/stack/tile/iron/textured_edge
+/obj/item/stack/tile/iron/edge
 	name = "textured edge tile"
 	singular_name = "edged textured floor tile"
-	icon_state = "tile_textured_edge"
-	turf_type = /turf/open/floor/iron/textured_edge
-	merge_type = /obj/item/stack/tile/iron/textured_edge
+	icon_state = "tile_edge"
+	turf_type = /turf/open/floor/iron/edge
+	merge_type = /obj/item/stack/tile/iron/edge
 	tile_rotate_dirs = list(SOUTH, NORTH, EAST, WEST)
 
-/obj/item/stack/tile/iron/textured_half
+/obj/item/stack/tile/iron/half
 	name = "textured half tile"
 	singular_name = "halved textured floor tile"
-	icon_state = "tile_textured_half"
-	turf_type = /turf/open/floor/iron/textured_half
-	merge_type = /obj/item/stack/tile/iron/textured_half
+	icon_state = "tile_half"
+	turf_type = /turf/open/floor/iron/half
+	merge_type = /obj/item/stack/tile/iron/half
 	tile_rotate_dirs = list(SOUTH, NORTH)
 
-/obj/item/stack/tile/iron/textured_corner
+/obj/item/stack/tile/iron/corner
 	name = "textured corner tile"
 	singular_name = "cornered textured floor tile"
-	icon_state = "tile_textured_corner"
-	turf_type = /turf/open/floor/iron/textured_corner
-	merge_type = /obj/item/stack/tile/iron/textured_corner
+	icon_state = "tile_corner"
+	turf_type = /turf/open/floor/iron/corner
+	merge_type = /obj/item/stack/tile/iron/corner
 	tile_rotate_dirs = list(SOUTH, NORTH, EAST, WEST)
 
-/obj/item/stack/tile/iron/textured_large
+/obj/item/stack/tile/iron/large
 	name = "textured large tile"
 	singular_name = "large textured floor tile"
-	icon_state = "tile_textured_large"
-	turf_type = /turf/open/floor/iron/textured_large
-	merge_type = /obj/item/stack/tile/iron/textured_large
+	icon_state = "tile_large"
+	turf_type = /turf/open/floor/iron/large
+	merge_type = /obj/item/stack/tile/iron/large
 
 /obj/item/stack/tile/iron/dark
 	name = "dark tile"
@@ -224,40 +212,40 @@
 /obj/item/stack/tile/iron/dark/textured
 	name = "dark textured tile"
 	singular_name = "dark textured floor tile"
-	icon_state = "tile_textured_dark"
+	icon_state = "tile_dark"
 	turf_type = /turf/open/floor/iron/dark/textured
 	merge_type = /obj/item/stack/tile/iron/dark/textured
 
-/obj/item/stack/tile/iron/dark/textured_edge
+/obj/item/stack/tile/iron/dark/edge
 	name = "dark textured edge tile"
 	singular_name = "edged dark textured floor tile"
-	icon_state = "tile_textured_dark_edge"
-	turf_type = /turf/open/floor/iron/dark/textured_edge
-	merge_type = /obj/item/stack/tile/iron/dark/textured_edge
+	icon_state = "tile_dark_edge"
+	turf_type = /turf/open/floor/iron/dark/edge
+	merge_type = /obj/item/stack/tile/iron/dark/edge
 	tile_rotate_dirs = list(SOUTH, NORTH, EAST, WEST)
 
-/obj/item/stack/tile/iron/dark/textured_half
+/obj/item/stack/tile/iron/dark/half
 	name = "dark textured half tile"
 	singular_name = "halved dark textured floor tile"
-	icon_state = "tile_textured_dark_half"
-	turf_type = /turf/open/floor/iron/dark/textured_half
-	merge_type = /obj/item/stack/tile/iron/dark/textured_half
+	icon_state = "tile_dark_half"
+	turf_type = /turf/open/floor/iron/dark/half
+	merge_type = /obj/item/stack/tile/iron/dark/half
 	tile_rotate_dirs = list(SOUTH, NORTH)
 
-/obj/item/stack/tile/iron/dark/textured_corner
+/obj/item/stack/tile/iron/dark/corner
 	name = "dark textured corner tile"
 	singular_name = "cornered dark textured floor tile"
-	icon_state = "tile_textured_dark_corner"
-	turf_type = /turf/open/floor/iron/dark/textured_corner
-	merge_type = /obj/item/stack/tile/iron/dark/textured_corner
+	icon_state = "tile_dark_corner"
+	turf_type = /turf/open/floor/iron/dark/corner
+	merge_type = /obj/item/stack/tile/iron/dark/corner
 	tile_rotate_dirs = list(SOUTH, NORTH, EAST, WEST)
 
-/obj/item/stack/tile/iron/dark/textured_large
+/obj/item/stack/tile/iron/dark/large
 	name = "dark textured large tile"
 	singular_name = "large dark textured floor tile"
-	icon_state = "tile_textured_dark_large"
-	turf_type = /turf/open/floor/iron/dark/textured_large
-	merge_type = /obj/item/stack/tile/iron/dark/textured_large
+	icon_state = "tile_dark_large"
+	turf_type = /turf/open/floor/iron/dark/large
+	merge_type = /obj/item/stack/tile/iron/dark/large
 
 /obj/item/stack/tile/iron/white
 	name = "white tile"
@@ -324,40 +312,40 @@
 /obj/item/stack/tile/iron/white/textured
 	name = "white textured tile"
 	singular_name = "white textured floor tile"
-	icon_state = "tile_textured_white"
+	icon_state = "tile_white"
 	turf_type = /turf/open/floor/iron/white/textured
 	merge_type = /obj/item/stack/tile/iron/white/textured
 
-/obj/item/stack/tile/iron/white/textured_edge
+/obj/item/stack/tile/iron/white/edge
 	name = "white textured edge tile"
 	singular_name = "edged white textured floor tile"
-	icon_state = "tile_textured_white_edge"
-	turf_type = /turf/open/floor/iron/white/textured_edge
-	merge_type = /obj/item/stack/tile/iron/white/textured_edge
+	icon_state = "tile_white_edge"
+	turf_type = /turf/open/floor/iron/white/edge
+	merge_type = /obj/item/stack/tile/iron/white/edge
 	tile_rotate_dirs = list(SOUTH, NORTH, EAST, WEST)
 
-/obj/item/stack/tile/iron/white/textured_half
+/obj/item/stack/tile/iron/white/half
 	name = "white textured half tile"
 	singular_name = "halved white textured floor tile"
-	icon_state = "tile_textured_white_half"
-	turf_type = /turf/open/floor/iron/white/textured_half
-	merge_type = /obj/item/stack/tile/iron/white/textured_half
+	icon_state = "tile_white_half"
+	turf_type = /turf/open/floor/iron/white/half
+	merge_type = /obj/item/stack/tile/iron/white/half
 	tile_rotate_dirs = list(SOUTH, NORTH)
 
-/obj/item/stack/tile/iron/white/textured_corner
+/obj/item/stack/tile/iron/white/corner
 	name = "white textured corner tile"
 	singular_name = "cornered white textured floor tile"
-	icon_state = "tile_textured_white_corner"
-	turf_type = /turf/open/floor/iron/white/textured_corner
-	merge_type = /obj/item/stack/tile/iron/white/textured_corner
+	icon_state = "tile_white_corner"
+	turf_type = /turf/open/floor/iron/white/corner
+	merge_type = /obj/item/stack/tile/iron/white/corner
 	tile_rotate_dirs = list(SOUTH, NORTH, EAST, WEST)
 
-/obj/item/stack/tile/iron/white/textured_large
+/obj/item/stack/tile/iron/white/large
 	name = "white textured large tile"
 	singular_name = "large white textured floor tile"
-	icon_state = "tile_textured_white_large"
-	turf_type = /turf/open/floor/iron/white/textured_large
-	merge_type = /obj/item/stack/tile/iron/white/textured_large
+	icon_state = "tile_white_large"
+	turf_type = /turf/open/floor/iron/white/large
+	merge_type = /obj/item/stack/tile/iron/white/large
 
 /obj/item/stack/tile/iron/recharge_floor
 	name = "recharge floor tile"

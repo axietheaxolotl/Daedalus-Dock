@@ -1966,9 +1966,8 @@
 	pixel_x = -6;
 	pixel_y = 6
 	},
-/turf/open/floor/wood{
-	icon_state = "wood-broken4"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/ruin/syndicate_lava_base/bar)
 "lk" = (
 /obj/structure/table/wood,
@@ -4039,9 +4038,6 @@
 	name = "Plasma to Mix"
 	},
 /turf/open/floor/iron,
-/area/ruin/syndicate_lava_base/engineering)
-"OI" = (
-/turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/engineering)
 "OQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4{
@@ -6750,7 +6746,7 @@ Wf
 sl
 eM
 ju
-OI
+AB
 ju
 ab
 ab

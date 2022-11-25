@@ -154,9 +154,8 @@
 /turf/open/floor/mineral/titanium/yellow/airless,
 /area/ruin/space/has_grav/powered/mechtransport)
 "M" = (
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/powered/mechtransport)
 "N" = (
 /turf/open/floor/plating/airless{
@@ -226,7 +225,7 @@ H
 S
 H
 I
-R
+M
 V
 T
 "}
@@ -241,7 +240,7 @@ w
 F
 w
 H
-N
+M
 I
 I
 T

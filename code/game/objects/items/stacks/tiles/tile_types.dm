@@ -1,6 +1,6 @@
 /**
  * TILE STACKS
- * 
+ *
  * Allows us to place a turf on a plating.
  */
 /obj/item/stack/tile
@@ -65,7 +65,7 @@
 
 /**
  * Place our tile on a plating, or replace it.
- * 
+ *
  * Arguments:
  * * target_plating - Instance of the plating we want to place on. Replaced during sucessful executions.
  * * user - The mob doing the placing.
@@ -141,6 +141,9 @@
 		/obj/item/stack/tile/wood/parquet,
 	)
 
+/turf/open/floor/wood/tile/setup_broken_states()
+	return list("wood_tile-broken", "wood_tile-broken2", "wood_tile-broken3")
+
 /obj/item/stack/tile/wood/parquet
 	name = "parquet wood floor tile"
 	singular_name = "parquet wood floor tile"
@@ -148,12 +151,18 @@
 	turf_type = /turf/open/floor/wood/parquet
 	merge_type = /obj/item/stack/tile/wood/parquet
 
+/turf/open/floor/wood/parquet/setup_broken_states()
+	return list("wood_parquet-broken", "wood_parquet-broken2", "wood_parquet-broken3", "wood_parquet-broken4", "wood_parquet-broken5", "wood_parquet-broken6", "wood_parquet-broken7")
+
 /obj/item/stack/tile/wood/large
 	name = "large wood floor tile"
 	singular_name = "large wood floor tile"
 	icon_state = "tile-wood_large"
 	turf_type = /turf/open/floor/wood/large
 	merge_type = /obj/item/stack/tile/wood/large
+
+/turf/open/floor/wood/large/setup_broken_states()
+	return list("wood_large-broken", "wood_large-broken2", "wood_large-broken3")
 
 /obj/item/stack/tile/wood/tile
 	name = "tiled wood floor tile"
