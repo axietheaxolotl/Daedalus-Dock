@@ -74,9 +74,8 @@
 /area/ruin/space/has_grav)
 "kA" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav)
 "lj" = (
 /obj/structure/cable,
@@ -89,7 +88,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/ruin/space/has_grav)
 "rB" = (
 /obj/effect/spawner/random/structure/girder{
@@ -108,9 +107,8 @@
 /area/ruin/space/has_grav)
 "uG" = (
 /obj/effect/spawner/random/trash/mess,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav)
 "uV" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -159,9 +157,8 @@
 /turf/template_noop,
 /area/template_noop)
 "zt" = (
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav)
 "zF" = (
 /obj/structure/closet/crate,
@@ -209,9 +206,8 @@
 /area/ruin/space/has_grav)
 "Gq" = (
 /obj/structure/girder/displaced,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav)
 "Jy" = (
 /obj/effect/turf_decal/stripes/line{
@@ -315,9 +311,8 @@
 "Qp" = (
 /obj/effect/spawner/random/trash/mess,
 /obj/structure/cable,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg2"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav)
 "Qs" = (
 /obj/effect/turf_decal/stripes/line,
@@ -328,9 +323,8 @@
 /area/ruin/space/has_grav)
 "Sp" = (
 /obj/structure/cable,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav)
 "SL" = (
 /obj/effect/spawner/random/trash/mess,
@@ -486,7 +480,7 @@ dS
 Yp
 Nl
 Yp
-WV
+Sp
 Ym
 Yp
 es
@@ -517,7 +511,7 @@ OO
 Jy
 Yp
 Ym
-vw
+Sp
 Nl
 Px
 es
@@ -596,8 +590,8 @@ Yp
 Yp
 Yp
 Yp
-vw
-Xw
+Sp
+Gq
 bY
 dm
 es

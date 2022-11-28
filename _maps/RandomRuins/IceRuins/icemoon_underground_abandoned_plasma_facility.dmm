@@ -912,7 +912,7 @@
 	name = "Ore Processing"
 	},
 /obj/effect/mapping_helpers/airlock/abandoned,
-/turf/open/floor/iron/textured_half,
+/turf/open/floor/iron/half,
 /area/ruin/plasma_facility/operations)
 "nk" = (
 /obj/machinery/atmospherics/pipe/smart/simple/general/hidden{
@@ -1054,7 +1054,7 @@
 /obj/structure/transit_tube_pod{
 	dir = 4
 	},
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/iron/large,
 /area/ruin/plasma_facility/commons)
 "oW" = (
 /obj/structure/lattice/catwalk,
@@ -1123,7 +1123,7 @@
 	color = "#0560fc"
 	},
 /obj/structure/ore_box,
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/iron/large,
 /area/ruin/plasma_facility/commons)
 "pC" = (
 /obj/machinery/space_heater/improvised_chem_heater,
@@ -1763,7 +1763,7 @@
 /obj/machinery/door/airlock/mining{
 	name = "Processing Control"
 	},
-/turf/open/floor/iron/textured_half,
+/turf/open/floor/iron/half,
 /area/ruin/plasma_facility/operations)
 "Cb" = (
 /obj/structure/lattice/catwalk,
@@ -2141,7 +2141,7 @@
 	name = "Operations"
 	},
 /obj/effect/mapping_helpers/airlock/abandoned,
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/ruin/plasma_facility/commons)
 "Ju" = (
 /obj/structure/grille,
@@ -2438,7 +2438,7 @@
 	note_info = "DO NOT ENTER!!!"
 	},
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/iron/white/textured_half,
+/turf/open/floor/iron/white/half,
 /area/ruin/plasma_facility/commons)
 "Nm" = (
 /obj/effect/turf_decal/tile/brown/half{
@@ -2672,7 +2672,7 @@
 /obj/effect/turf_decal/tile/neutral/full,
 /obj/effect/turf_decal/bot_red,
 /obj/machinery/suit_storage_unit,
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/iron/large,
 /area/ruin/plasma_facility/commons)
 "Qh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2965,7 +2965,7 @@
 /obj/machinery/door/airlock/public{
 	name = "Commons Area"
 	},
-/turf/open/floor/iron/dark/textured_half,
+/turf/open/floor/iron/dark/half,
 /area/ruin/plasma_facility/commons)
 "WC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -3075,7 +3075,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/pickaxe,
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/iron/large,
 /area/ruin/plasma_facility/commons)
 "Yl" = (
 /obj/structure/flora/rock/pile/icy,
@@ -3089,7 +3089,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/caution,
 /obj/machinery/light_switch/directional/south,
-/turf/open/floor/iron/textured_large,
+/turf/open/floor/iron/large,
 /area/ruin/plasma_facility/commons)
 "YI" = (
 /obj/structure/cable,

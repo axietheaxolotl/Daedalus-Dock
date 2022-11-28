@@ -226,9 +226,8 @@
 /turf/open/floor/plating,
 /area/awaymission/research/interior/engineering)
 "aU" = (
-/turf/open/floor/iron{
-	icon_state = "damaged1"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior/engineering)
 "aW" = (
 /obj/machinery/light/directional/east,
@@ -254,9 +253,8 @@
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/open/floor/iron{
-	icon_state = "damaged4"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior/engineering)
 "bc" = (
 /turf/open/floor/iron{
@@ -271,9 +269,8 @@
 "be" = (
 /obj/item/stack/rods,
 /obj/item/ammo_casing/c45,
-/turf/open/floor/iron{
-	icon_state = "damaged5"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior/engineering)
 "bf" = (
 /turf/closed/wall/mineral/plastitanium{
@@ -282,9 +279,8 @@
 /area/awaymission/research/interior/engineering)
 "bg" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/iron{
-	icon_state = "damaged5"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior/engineering)
 "bi" = (
 /obj/structure/table,
@@ -329,9 +325,8 @@
 "bs" = (
 /obj/item/ammo_casing/c45,
 /obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/iron{
-	icon_state = "damaged5"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior/engineering)
 "bw" = (
 /obj/structure/table,
@@ -579,9 +574,8 @@
 /obj/effect/mob_spawn/corpse/human/syndicatesoldier{
 	brute_damage = 200
 	},
-/turf/open/floor/iron{
-	icon_state = "damaged3"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior/engineering)
 "ch" = (
 /obj/machinery/light/small/directional/east,
@@ -637,9 +631,8 @@
 	brute_damage = 200
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/iron{
-	icon_state = "damaged4"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior)
 "cs" = (
 /obj/machinery/door/airlock/engineering{
@@ -676,9 +669,8 @@
 /area/awaymission/research/interior/maint)
 "cA" = (
 /obj/item/ammo_casing/c46x30mm,
-/turf/open/floor/iron{
-	icon_state = "damaged4"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior)
 "cC" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -707,16 +699,14 @@
 /turf/open/floor/plating,
 /area/awaymission/research/interior/maint)
 "cM" = (
-/turf/open/floor/iron{
-	icon_state = "damaged4"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior)
 "cN" = (
 /obj/item/ammo_casing/c9mm,
 /obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/iron{
-	icon_state = "damaged4"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior)
 "cP" = (
 /obj/effect/mob_spawn/corpse/human/nanotrasensoldier{
@@ -1136,9 +1126,8 @@
 /area/awaymission/research/interior/cryo)
 "eD" = (
 /obj/structure/barricade/security,
-/turf/open/floor/iron{
-	icon_state = "damaged4"
-	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
 /area/awaymission/research/interior/cryo)
 "eE" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -41879,7 +41868,7 @@ al
 al
 al
 al
-aS
+aU
 bb
 gL
 bG
@@ -42137,7 +42126,7 @@ ap
 an
 aJ
 nf
-bc
+aU
 EV
 bH
 ar
@@ -42394,7 +42383,7 @@ an
 an
 an
 aT
-bd
+aU
 Mo
 bI
 bV
@@ -42652,7 +42641,7 @@ an
 aK
 au
 be
-br
+bb
 XU
 EC
 cg
@@ -42912,7 +42901,7 @@ bf
 bs
 bK
 bX
-bd
+aU
 cs
 cC
 cP

@@ -2,7 +2,7 @@
 "aa" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/closet/emcloset/anchored,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/engine)
 "ab" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -19,7 +19,7 @@
 "ac" = (
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/suit_storage_unit/mining/eva,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/engine)
 "ad" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
@@ -127,7 +127,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/engine)
 "as" = (
 /obj/structure/lattice/catwalk,
@@ -174,7 +174,7 @@
 	},
 /obj/effect/turf_decal/bot_red,
 /obj/effect/spawner/random/structure/crate_abandoned,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "az" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -185,7 +185,7 @@
 /obj/effect/spawner/random/structure/crate,
 /obj/effect/spawner/random/exotic/technology,
 /obj/effect/spawner/random/maintenance/two,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "aA" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -196,7 +196,7 @@
 /obj/effect/spawner/random/structure/crate_loot,
 /obj/effect/spawner/random/maintenance/two,
 /obj/effect/spawner/random/exotic/tool,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "aB" = (
 /obj/structure/chair/comfy/shuttle,
@@ -223,7 +223,7 @@
 "aH" = (
 /obj/effect/turf_decal/bot_red,
 /obj/effect/spawner/random/structure/crate_abandoned,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "aI" = (
 /obj/effect/turf_decal/caution/white,
@@ -242,7 +242,7 @@
 /obj/effect/spawner/random/food_or_drink/booze,
 /obj/effect/spawner/random/food_or_drink/salad,
 /obj/effect/spawner/random/maintenance/two,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "aL" = (
 /obj/machinery/porta_turret/centcom_shuttle/weak{
@@ -357,7 +357,7 @@
 "bf" = (
 /obj/effect/turf_decal/bot_red,
 /obj/effect/spawner/random/engineering/atmospherics_portable,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "bg" = (
 /obj/machinery/door/window/survival_pod{
@@ -393,7 +393,7 @@
 "bl" = (
 /obj/effect/turf_decal/bot_red,
 /obj/effect/spawner/random/decoration/showcase,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "bn" = (
 /obj/effect/turf_decal/caution/white{
@@ -409,7 +409,7 @@
 	},
 /obj/effect/turf_decal/bot_red,
 /obj/effect/spawner/random/engineering/atmospherics_portable,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "bp" = (
 /obj/effect/decal/cleanable/blood,
@@ -419,7 +419,7 @@
 "bq" = (
 /obj/effect/turf_decal/bot_red,
 /obj/effect/spawner/random/structure/crate_empty,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "br" = (
 /obj/machinery/door/window/left/directional/west,
@@ -455,7 +455,7 @@
 /obj/effect/spawner/random/structure/furniture_parts,
 /obj/effect/spawner/random/food_or_drink/refreshing_beverage,
 /obj/effect/spawner/random/food_or_drink/seed_rare,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "bw" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -488,7 +488,7 @@
 /obj/effect/spawner/random/food_or_drink/snack,
 /obj/effect/spawner/random/food_or_drink/snack,
 /obj/effect/spawner/random/exotic/languagebook,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "bB" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -496,7 +496,7 @@
 	},
 /obj/effect/turf_decal/bot_red,
 /obj/structure/mining_shuttle_beacon,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "bC" = (
 /obj/machinery/porta_turret/centcom_shuttle/weak{
@@ -515,7 +515,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 9
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "bF" = (
 /obj/structure/bed/double/pod,
@@ -523,7 +523,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 6
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "bG" = (
 /obj/effect/turf_decal/stripes/white/box,
@@ -534,7 +534,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "bI" = (
 /obj/structure/table/reinforced/rglass,
@@ -561,7 +561,7 @@
 /obj/item/clothing/head/beret/centcom_formal,
 /obj/item/clothing/suit/armor/vest,
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "bL" = (
 /obj/structure/cable,
@@ -690,7 +690,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/engine)
 "ck" = (
 /obj/effect/turf_decal/stripes/white/box,
@@ -701,7 +701,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/engine)
 "cl" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -717,7 +717,7 @@
 	},
 /obj/effect/turf_decal/bot_red,
 /obj/effect/spawner/random/engineering/tank,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "cv" = (
 /obj/item/shard,
@@ -783,7 +783,7 @@
 /obj/effect/spawner/random/structure/crate_empty,
 /obj/effect/spawner/random/exotic/syndie,
 /obj/effect/spawner/random/exotic/tool,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "cI" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -803,7 +803,7 @@
 /obj/effect/spawner/random/maintenance/two,
 /obj/effect/spawner/random/food_or_drink/refreshing_beverage,
 /obj/effect/spawner/random/food_or_drink/condiment,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/cargo)
 "cM" = (
 /turf/template_noop,
@@ -932,19 +932,19 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 5
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "dj" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/light/cold/no_nightlight/directional/west,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "dk" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/light/cold/no_nightlight/directional/east,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "dl" = (
 /obj/structure/sign/warning/nosmoking/circle,
@@ -974,7 +974,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "dp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -995,7 +995,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "ds" = (
 /obj/structure/sign/poster/official/do_not_question,
@@ -1004,7 +1004,7 @@
 "dt" = (
 /obj/machinery/suit_storage_unit/open,
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "du" = (
 /obj/structure/closet/emcloset/anchored,
@@ -1012,7 +1012,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "dv" = (
 /obj/structure/sign/nanotrasen,
@@ -1026,7 +1026,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "dx" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -1140,7 +1140,7 @@
 /obj/effect/turf_decal/stripes/white/corner{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "sw" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/whiteship{
@@ -1149,7 +1149,7 @@
 /obj/effect/turf_decal/stripes/white/corner{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "sE" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -1164,7 +1164,7 @@
 	pixel_x = -7;
 	pixel_y = 1
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "sH" = (
 /obj/structure/closet/crate/engineering,
@@ -1210,7 +1210,7 @@
 "wp" = (
 /obj/structure/closet/syndicate,
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "yd" = (
 /obj/effect/spawner/random/vending/colavend,
@@ -1223,7 +1223,7 @@
 /obj/item/bedsheet/hos,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/light/cold/directional/east,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "zN" = (
 /obj/machinery/stasis/survival_pod,
@@ -1231,7 +1231,7 @@
 	dir = 10
 	},
 /obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "AC" = (
 /obj/structure/chair/comfy/shuttle,
@@ -1256,7 +1256,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 10
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "Fp" = (
 /obj/structure/window/reinforced/spawner/west,
@@ -1359,7 +1359,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 6
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "PU" = (
 /obj/effect/decal/cleanable/blood/gibs,
@@ -1369,7 +1369,7 @@
 /obj/structure/closet/syndicate,
 /obj/effect/turf_decal/bot_white,
 /obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "Qy" = (
 /obj/item/shard,
@@ -1415,7 +1415,7 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/large,
 /area/shuttle/abandoned/bridge)
 "Wm" = (
 /obj/structure/table/reinforced/plastitaniumglass,
