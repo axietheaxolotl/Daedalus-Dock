@@ -12,6 +12,7 @@
 /obj/item/storage/backpack
 	name = "backpack"
 	desc = "You wear this on your back and put items into it."
+	icon = 'icons/obj/storage/backpack.dmi'
 	icon_state = "backpack"
 	inhand_icon_state = "backpack"
 	lefthand_file = 'icons/mob/inhands/equipment/backpack_lefthand.dmi'
@@ -41,7 +42,7 @@
 /obj/item/bag_of_holding_inert
 	name = "inert bag of holding"
 	desc = "What is currently a just an unwieldly block of metal with a slot ready to accept a bluespace anomaly core."
-	icon = 'icons/obj/storage.dmi'
+	icon = 'icons/obj/storage/storage.dmi'
 	icon_state = "brokenpack"
 	inhand_icon_state = "brokenpack"
 	lefthand_file = 'icons/mob/inhands/equipment/backpack_lefthand.dmi'

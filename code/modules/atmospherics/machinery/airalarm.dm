@@ -82,6 +82,7 @@
 
 	var/danger_level = 0
 	var/mode = AALARM_MODE_SCRUBBING
+	var/light_mask = "alarm-light-mask"
 
 	//Fire alarm related vars//
 

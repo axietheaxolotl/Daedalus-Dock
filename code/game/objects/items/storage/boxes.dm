@@ -25,6 +25,7 @@
 	name = "box"
 	desc = "It's just an ordinary box."
 	icon_state = "box"
+	icon = 'icons/obj/storage/storagebox.dmi'
 	inhand_icon_state = "syringe_kit"
 	lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
@@ -177,10 +178,13 @@
 	internal_type = /obj/item/tank/internals/emergency_oxygen/engi
 	medipen_type = null
 	illustration = "extendedtank"
+	icon_state = "syndiebox"
 
 // Security survival box
 /obj/item/storage/box/survival/security
 	mask_type = /obj/item/clothing/mask/gas/sechailer
+
+	icon_state = "secbox"
 
 /obj/item/storage/box/survival/security/radio/PopulateContents()
 	..() // we want the regular stuff too
@@ -189,6 +193,8 @@
 // Medical survival box
 /obj/item/storage/box/survival/medical
 	mask_type = /obj/item/clothing/mask/breath/medical
+
+	icon_state = "medbox"
 
 /obj/item/storage/box/gloves
 	name = "box of latex gloves"
@@ -203,6 +209,7 @@
 	name = "box of sterile masks"
 	desc = "This box contains sterile medical masks."
 	illustration = "sterile"
+	icon_state = "medbox"
 
 /obj/item/storage/box/masks/PopulateContents()
 	for(var/i in 1 to 7)
@@ -212,6 +219,7 @@
 	name = "box of syringes"
 	desc = "A box full of syringes."
 	illustration = "syringe"
+	icon_state = "medbox"
 
 /obj/item/storage/box/syringes/PopulateContents()
 	for(var/i in 1 to 7)
@@ -230,6 +238,7 @@
 	name = "box of medipens"
 	desc = "A box full of epinephrine MediPens."
 	illustration = "epipen"
+	icon_state = "medbox"
 
 /obj/item/storage/box/medipens/PopulateContents()
 	for(var/i in 1 to 7)
@@ -276,6 +285,7 @@
 	name = "box of medical gels"
 	desc = "A box full of medical gel applicators, with unscrewable caps and precision spray heads."
 	illustration = "medgel"
+	icon_state = "medbox"
 
 /obj/item/storage/box/medigels/PopulateContents()
 	for(var/i in 1 to 7)
@@ -285,6 +295,7 @@
 	name = "box of DNA injectors"
 	desc = "This box contains injectors, it seems."
 	illustration = "dna"
+	icon_state = "medbox"
 
 /obj/item/storage/box/injectors/PopulateContents()
 	var/static/items_inside = list(
@@ -356,6 +367,7 @@
 	name = "box of emp grenades"
 	desc = "A box with 5 emp grenades."
 	illustration = "emp"
+	icon_state = "syndiebox"
 
 /obj/item/storage/box/emps/PopulateContents()
 	for(var/i in 1 to 5)
@@ -392,6 +404,7 @@
 	name = "boxed chemical implant kit"
 	desc = "Box of stuff used to implant chemicals."
 	illustration = "implant"
+	icon_state = "medbox"
 
 /obj/item/storage/box/chemimp/PopulateContents()
 	var/static/items_inside = list(
@@ -404,6 +417,7 @@
 	name = "boxed exile implant kit"
 	desc = "Box of exile implants. It has a picture of a clown being booted through the Gateway."
 	illustration = "implant"
+	icon_state = "secbox"
 
 /obj/item/storage/box/exileimp/PopulateContents()
 	var/static/items_inside = list(
@@ -415,6 +429,7 @@
 	name = "body bags"
 	desc = "The label indicates that it contains body bags."
 	illustration = "bodybags"
+	icon_state = "medbox"
 
 /obj/item/storage/box/bodybags/PopulateContents()
 	..()
@@ -685,6 +700,7 @@
 	name = "box of pill bottles"
 	desc = "It has pictures of pill bottles on its front."
 	illustration = "pillbox"
+	icon_state = "medbox"
 
 /obj/item/storage/box/pillbottles/PopulateContents()
 	for(var/i in 1 to 7)
@@ -748,13 +764,8 @@
 
 /obj/item/storage/box/lights
 	name = "box of replacement bulbs"
-	icon = 'icons/obj/storage.dmi'
 	illustration = "light"
 	desc = "This box is shaped on the inside so that only light tubes and bulbs fit."
-	inhand_icon_state = "syringe_kit"
-	lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
-	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
-	foldable = /obj/item/stack/sheet/cardboard //BubbleWrap
 
 /obj/item/storage/box/lights/ComponentInitialize()
 	. = ..()
@@ -837,6 +848,7 @@
 	name = "clown box"
 	desc = "A colorful cardboard box for the clown"
 	illustration = "clown"
+	icon_state = "hugbox"
 
 /obj/item/storage/box/clown/attackby(obj/item/I, mob/user, params)
 	if((istype(I, /obj/item/bodypart/l_arm/robot)) || (istype(I, /obj/item/bodypart/r_arm/robot)))
@@ -905,8 +917,8 @@
 /obj/item/storage/box/rubbershot
 	name = "box of rubber shots"
 	desc = "A box full of rubber shots, designed for riot shotguns."
-	icon_state = "rubbershot_box"
-	illustration = null
+	icon_state = "secbox_xl"
+	illustration = "rubbershot"
 
 /obj/item/storage/box/rubbershot/PopulateContents()
 	for(var/i in 1 to 7)
@@ -915,8 +927,8 @@
 /obj/item/storage/box/lethalshot
 	name = "box of lethal shotgun shots"
 	desc = "A box full of lethal shots, designed for riot shotguns."
-	icon_state = "lethalshot_box"
-	illustration = null
+	icon_state = "secbox_xl"
+	illustration = "buckshot"
 
 /obj/item/storage/box/lethalshot/PopulateContents()
 	for(var/i in 1 to 7)
@@ -925,8 +937,8 @@
 /obj/item/storage/box/beanbag
 	name = "box of beanbags"
 	desc = "A box full of beanbag shells."
-	icon_state = "beanbagshot_box"
-	illustration = null
+	icon_state = "secbox_xl"
+	illustration = "beanbag"
 
 /obj/item/storage/box/beanbag/PopulateContents()
 	for(var/i in 1 to 6)
@@ -1058,6 +1070,7 @@
 	name = "box of silver sulfadiazine patches"
 	desc = "Contains patches used to treat burns."
 	illustration = "firepatch"
+	icon_state = "medbox"
 
 /obj/item/storage/box/silver_sulf/PopulateContents()
 	for(var/i in 1 to 7)
@@ -1330,6 +1343,7 @@
 	name = "box of microbiological swabs"
 	desc = "Contains a number of sterile swabs for collecting microbiological samples."
 	illustration = "swab"
+	icon_state = "medbox"
 
 /obj/item/storage/box/swab/PopulateContents()
 	for(var/i in 1 to 7)
@@ -1698,3 +1712,9 @@
 							  /obj/item/food/sustenance_bar/wonka = 1))
 		new randomFood(src)
 	new /obj/item/storage/box/gum/wake_up(src)
+
+// UNADDED
+
+/obj/item/storage/box/holobadge
+	icon_state = "secbox"
+	illustration = "holobadge"
