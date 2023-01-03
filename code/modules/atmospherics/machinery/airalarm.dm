@@ -69,8 +69,8 @@
 /obj/machinery/airalarm
 	name = "air alarm"
 	desc = "A machine that monitors atmosphere levels. Goes off if the area is dangerous."
-	icon = 'icons/obj/monitors.dmi'
-	icon_state = "alarmp"
+	icon = 'icons/obj/machines/air_alarm.dmi'
+	icon_state = "alarm"
 	idle_power_usage = BASE_MACHINE_IDLE_CONSUMPTION * 0.05
 	active_power_usage = BASE_MACHINE_ACTIVE_CONSUMPTION * 0.02
 	power_channel = AREA_USAGE_ENVIRON
@@ -82,7 +82,6 @@
 
 	var/danger_level = 0
 	var/mode = AALARM_MODE_SCRUBBING
-	var/light_mask = "alarm-light-mask"
 
 	//Fire alarm related vars//
 
@@ -632,30 +631,33 @@
 				icon_state = "alarm_b1"
 		return ..()
 
-	icon_state = "alarmp"
+	icon_state = "alarm"
 	return ..()
 
 /obj/machinery/airalarm/update_overlays()
 	. = ..()
-
-	if(panel_open || (machine_stat & (NOPOWER|BROKEN)) || shorted)
+	// Open panels will only display a light on the final buildstage
+	if(panel_open)
+		if(buildstage == AIRALARM_BUILD_COMPLETE)
+			. += mutable_appearance(icon, "light-out", layer, plane)
 		return
 
+	if((machine_stat & (NOPOWER|BROKEN)) || shorted)
+		. += mutable_appearance(icon, "light-out", layer, plane)
+		return ..()
+
+	var/light_to_use
 	var/area/our_area = get_area(src)
-	var/state
-
-	var/alert = max(danger_level, !!our_area.active_alarms[ALARM_ATMOS])
-	alert ||= !!alert_type //Fires should only display yellow alerts
-	switch(alert)
+	switch(max(danger_level, !!our_area.active_alarms[ALARM_ATMOS]))
 		if(0)
-			state = "alarm0"
+			light_to_use = "light-0"
 		if(1)
-			state = "alarm2" //yes, alarm2 is yellow alarm
+			light_to_use = "light-2" //yes, light 2 is yellow alarm
 		if(2)
-			state = "alarm1"
+			light_to_use = "light-1"
 
-	. += mutable_appearance(icon, state)
-	. += emissive_appearance(icon, state, alpha = src.alpha)
+	. += mutable_appearance(icon, light_to_use)
+	. += emissive_appearance(icon, light_to_use, src, alpha)
 
 /obj/machinery/airalarm/fire_act(exposed_temperature, exposed_volume)
 	. = ..()
