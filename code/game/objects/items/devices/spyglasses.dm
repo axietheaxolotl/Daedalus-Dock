@@ -94,6 +94,7 @@
 /obj/item/storage/box/rxglasses/spyglasskit
 	name = "spyglass kit"
 	desc = "this box contains <i>cool</i> nerd glasses; with built-in displays to view a linked camera."
+	icon_state = "secbox"
 
 /obj/item/paper/fluff/nerddocs
 	name = "Espionage For Dummies"

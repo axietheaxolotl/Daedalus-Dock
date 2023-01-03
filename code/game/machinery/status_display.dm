@@ -34,6 +34,10 @@
 	var/message1 = ""
 	var/message2 = ""
 
+/obj/machinery/status_display/LateInitialize()
+	. = ..()
+	set_picture("default")
+
 /obj/item/wallframe/status_display
 	name = "status display frame"
 	desc = "Used to build status displays, just secure to the wall."
@@ -573,6 +577,14 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/status_display/ai, 32)
 			status_signal.data["picture_state"] = picture_map[picture.value]
 
 	connected_display.receive_signal(status_signal)
+
+/obj/machinery/status_display/syndie
+	name = "syndicate status display"
+
+/obj/machinery/status_display/syndie/LateInitialize()
+	. = ..()
+	set_picture("synd")
+
 
 #undef CHARS_PER_LINE
 #undef FONT_SIZE

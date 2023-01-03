@@ -9,7 +9,8 @@
 	name = "area power controller"
 	desc = "A control terminal for the area's electrical systems."
 
-	icon_state = "apc0"
+	icon = 'icons/obj/APC.dmi'
+	icon_state = "frame"
 	use_power = NO_POWER_USE
 	req_access = null
 	max_integrity = 200
@@ -31,6 +32,7 @@
 	///Type of cell we start with
 	var/cell_type = /obj/item/stock_parts/cell/upgraded //Base cell has 2500 capacity. Enter the path of a different cell you want to use. cell determines charge rates, max capacity, ect. These can also be changed with other APC vars, but isn't recommended to minimize the risk of accidental usage of dirty editted APCs
 	///State of the cover (closed, opened, removed)
+	///Opens the upper hatch, exposes the cell, and the first part of the terminal
 	var/opened = APC_COVER_CLOSED
 	///Is the APC shorted and not working?
 	var/shorted = FALSE
@@ -93,10 +95,10 @@
 	var/emergency_lights = FALSE
 	///Should the nighshift lights be on?
 	var/nightshift_lights = FALSE
+	///Tracks if lights channel was set to nightshift / reduced power usage mode automatically due to low power.
+	var/low_power_nightshift_lights = FALSE
 	///Time when the nightshift where turned on last, to prevent spamming
 	var/last_nightshift_switch = 0
-	///Stores the flags for the icon state
-	var/update_state = -1
 	///Stores the flag for the overlays
 	var/update_overlay = -1
 	///Used to stop process from updating the icons too much
@@ -151,7 +153,7 @@
 	has_electronics = APC_ELECTRONICS_SECURED
 	// is starting with a power cell installed, create it and set its charge level
 	if(cell_type)
-		cell = new cell_type
+		cell = new cell_type(src)
 		cell.charge = start_charge * cell.maxcharge / 100 // (convert percentage to actual value)
 
 	var/area/our_area = get_area(loc)
@@ -208,6 +210,7 @@
 /obj/machinery/power/apc/handle_atom_del(atom/atom_to_check)
 	if(atom_to_check == cell)
 		cell = null
+		charging = APC_NOT_CHARGING
 		update_appearance()
 
 /obj/machinery/power/apc/examine(mob/user)
@@ -266,6 +269,7 @@
 		"mainLights" = area.lightswitch,
 		"emergencyLights" = !emergency_lights,
 		"nightshiftLights" = nightshift_lights,
+		"disable_nightshift_toggle" = low_power_nightshift_lights,
 
 		"powerChannels" = list(
 			list(
@@ -366,6 +370,7 @@
 				malfvacate()
 		if("reboot")
 			failure_timer = 0
+			force_update = FALSE
 			update_appearance()
 			update()
 		if("main_lights")
@@ -391,8 +396,6 @@
 	if(!area || !area.requires_power)
 		return
 	if(failure_timer)
-		update()
-		queue_icon_update()
 		failure_timer--
 		force_update = TRUE
 		return
@@ -522,7 +525,7 @@
 	// update icon & area power if anything changed
 
 	if(last_lt != lighting || last_eq != equipment || last_en != environ || force_update)
-		force_update = 0
+		force_update = FALSE
 		queue_icon_update()
 		update()
 	else if(last_ch != charging)
@@ -557,6 +560,7 @@
 		breaked_light.on = TRUE
 		breaked_light.break_light_tube()
 		stoplag()
+
 /obj/machinery/power/apc/should_atmos_process(datum/gas_mixture/air, exposed_temperature)
 	return (exposed_temperature > 2000) ? TRUE : FALSE
 

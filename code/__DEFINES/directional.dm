@@ -16,14 +16,35 @@
 /// Inverse direction, taking into account UP|DOWN if necessary.
 #define REVERSE_DIR(dir) ( ((dir & 85) << 1) | ((dir & 170) >> 1) )
 
+// Wallening todo: temporary helper, until we finish fleshing things out and can convert the main one
+// Why are we not just changing the sprites agian?
+#define INVERT_MAPPING_DIRECTIONAL_HELPERS(path, offset) \
+##path/directional/north {\
+	dir = SOUTH; \
+	pixel_z = offset; \
+} \
+##path/directional/south {\
+	dir = NORTH; \
+	pixel_z = -offset; \
+} \
+##path/directional/east {\
+	dir = WEST; \
+	pixel_x = offset; \
+} \
+##path/directional/west {\
+	dir = EAST; \
+	pixel_x = -offset; \
+}
+
 /// Create directional subtypes for a path to simplify mapping.
+
 #define MAPPING_DIRECTIONAL_HELPERS(path, offset) ##path/directional/north {\
 	dir = NORTH; \
-	pixel_y = offset; \
+	pixel_z = offset; \
 } \
 ##path/directional/south {\
 	dir = SOUTH; \
-	pixel_y = -offset; \
+	pixel_z = -offset; \
 } \
 ##path/directional/east {\
 	dir = EAST; \
